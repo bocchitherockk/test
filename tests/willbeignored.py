@@ -1,0 +1,2 @@
+def willbeignored():
+    assert False
