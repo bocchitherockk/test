@@ -3,11 +3,13 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
+        // Checkout the code from the repository
+        // This is a redundant step as Jenkins automatically checks out the code by default, but it's included here for clarity.
+        // stage('Checkout') {
+        //     steps {
+        //         checkout scm
+        //     }
+        // }
 
         stage('Install Dependencies') {
             steps {
