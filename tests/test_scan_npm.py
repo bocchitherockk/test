@@ -1,6 +1,6 @@
 import json
 
-from src.scan_npm import read_npm_dependencies
+from dependency_sentinel.scan_npm import read_npm_dependencies
 
 
 def test_reads_dependencies_and_dev_dependencies(tmp_path):
